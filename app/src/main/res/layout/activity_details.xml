@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextView_citydetails"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView_iconlarge"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_detailsTemp"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_detailsClimateType"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_maxTemp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_MinTemp"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_feelsLike"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Humidity"
+        android:layout_weight="0.03"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_dewPoint"
+        android:layout_weight="0.03"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_pressure"
+        android:layout_weight="0.03"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_clouds"
+        android:layout_weight="0.03"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_winds"
+        android:layout_weight="0.03"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>

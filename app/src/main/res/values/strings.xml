@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherDemo</string>
+
+    <string name="addCity">Add City</string>
+    <string name="nameFieldHint">City (i.e. Charlotte)</string>
+    <string name="stateInitialHint">State (i.e. NC)</string>
+    <string name="saveCityButton">Submit</string>
+    <string name="noCitiesAdded">There is no city in your Favorites</string>
+
+    <string name="loadingWeather">Loading Hourly Data</string>
+    <string name="CityNotFound">The city is not valid!</string>
+    <string name="hourlyDataHeading">HOURLY DATA</string>
+    <string name="Menu_Item">Add to Favorites</string>
+
+
+</resources>

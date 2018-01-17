@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView_icon"
+            android:elevation="2dp"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="179dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/textView_time"
+                android:textStyle="normal|bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/textView_climateType"
+                android:paddingTop="1dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="143dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_temperature"
+            android:gravity="right|center_vertical"
+            android:paddingRight="10dp"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</LinearLayout>
